@@ -1,0 +1,19 @@
+h1{
+    color: red;
+    background-color: salmon;
+}
+body{
+    background-color: seagreen;
+
+}
+li{
+    list-style:none;
+    padding: 20px 30px 20px 30px;
+}
+ul{
+    display: flex;
+}
+.header{
+    background-color: seashell;
+
+}
