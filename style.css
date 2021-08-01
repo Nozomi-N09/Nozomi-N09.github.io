@@ -1,19 +1,33 @@
 h1{
-    color: red;
-    background-color: salmon;
+    font-size: 50px;
+    color: #FC5404;
+    
 }
 body{
-    background-color: seagreen;
-
-}
-li{
-    list-style:none;
-    padding: 20px 30px 20px 30px;
-}
-ul{
-    display: flex;
-}
-.header{
+    
     background-color: seashell;
+    
+}
 
+
+img {
+    width: 300px;
+}
+.img {
+ display: flex;
+ justify-content: center;
+ margin-right: 60px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+   }
+h2 {
+    display: flex;
+    justify-content: center;
+}
+.head {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
