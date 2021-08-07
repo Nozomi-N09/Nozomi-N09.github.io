@@ -13,10 +13,17 @@ body{
 img {
     width: 300px;
 }
-.img {
- display: flex;
- justify-content: center;
- margin-right: 60px;
+.img1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 60px;
+}
+.img2 {
+    display: flex;
+    justify-content: center;
+    /*画像の大きさ変える書き方がわかんない */
+    /*height: 30px;
+    width: 27px;*/
 }
 .title {
     display: flex;
@@ -30,4 +37,13 @@ h2 {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 200px;
 }
+p {
+    display: flex;
+    justify-content: center;
+}
+span {
+    color: #FC5404;   
+}
+/*文字の色は変えられたけど、文の始まりの位置がずれた。。*/
