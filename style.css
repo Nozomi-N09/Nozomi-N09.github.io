@@ -18,14 +18,8 @@ img {
     justify-content: center;
     margin-right: 60px;
 }
-.img2 {
-    display: flex;
-    justify-content: center;
-    /*画像の大きさ変える書き方がわかんない */
-    /*height: 30px;
-    width: 27px;*/
-}
-.title {
+
+.c {
     display: flex;
     justify-content: center;
    }
@@ -46,4 +40,11 @@ p {
 span {
     color: #FC5404;   
 }
-/*文字の色は変えられたけど、文の始まりの位置がずれた。。*/
+.yajirusi {
+    width: 70px;
+    height: 60px;
+}
+li {
+   display: flex;   
+   justify-content: center;
+}
