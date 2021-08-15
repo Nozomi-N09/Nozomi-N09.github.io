@@ -59,6 +59,12 @@ p {
 span {
     color: #F54748;   
 }
+header {
+  color: #FB9300;
+}
+/*a {
+  color: #343F56;
+}*/
 
 li {
    display: flex;   
@@ -67,7 +73,7 @@ li {
 /** {
     margin:0; padding:0;
   }*/
-  header {
+header {
     width: 100%;
     padding: 15px 0;
     margin: 0 auto;
@@ -75,19 +81,22 @@ li {
     background-color: #343F56;
     color: #FB9300;
   }
-  header .headline{
+header .headline{
     font-size: 32px;
     font-family: 'HuiFontP109';
+    color: #FB9300;
   }
-  .nav-list {
+.nav-list {
     text-align: center;
     padding: 10px 0;
     margin: 0 auto;
+    color: #FB9300;
   }
   .nav-list-item {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
+    color: #FB9300;
   }
  
   .c-1 {
@@ -136,4 +145,7 @@ li {
   display: flex;
   justify-content: center;
 
+}
+a {
+  color: #343F56;
 }
