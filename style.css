@@ -10,9 +10,12 @@
     font-style: normal;
   }
 /*ふい字にしたくて、ネットで探してやってみたけど上手くいかなかった。。*/
-h1{
-    font-size: 50px;
+.title {
+    /*真ん中によらない。。。。。*/
+    font-size: 30px;
     color: #FB9300;
+    margin-left: auto;
+    margin-right: auto;
     /*justify-content: center;*/
     
 }
@@ -69,7 +72,8 @@ li {
     padding: 15px 0;
     margin: 0 auto;
     text-align: center;
-    /*background-color: #343F56;*/
+    background-color: #343F56;
+    color: #FB9300;
   }
   header .headline{
     font-size: 32px;
@@ -111,10 +115,25 @@ li {
     margin: 35px;
  }
  .sentakusi {
-    justify-content: center;
+    /*justify-content: center;*/
     border:dotted medium #FB9300;
-    width: 700px;
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
     
 
  }
-     
+.ko-to {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+.cort-sentence {  
+  margin-left: 10ex;
+}
+.ball {
+  display: flex;
+  justify-content: center;
+
+}
