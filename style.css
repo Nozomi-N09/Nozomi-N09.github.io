@@ -1,12 +1,26 @@
+
+ @font-face {
+    font-family: 'HuiFontP109';
+    src:url('/fonts/public/HuiFont/HuiFontP109.eot');
+    src:url('/fonts/public/HuiFont/HuiFontP109.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/public/HuiFont/HuiFontP109.woff')format('woff'),
+    url('/fonts/public/HuiFont/HuiFontP109.ttf')format('truetype'),
+    url('/fonts/public/HuiFont/HuiFontP109.svg#HuiFontP109') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+/*ふい字にしたくて、ネットで探してやってみたけど上手くいかなかった。。*/
 h1{
     font-size: 50px;
-    color: #FC5404;
+    color: #FB9300;
+    /*justify-content: center;*/
     
 }
 body{
-    
-    background-color: seashell;
-    
+    color: #343F56;
+    font-family: "Arial", "メイリオ";
+    background-color: #F5E6CA;
+    justify-content: center;
 }
 
 
@@ -22,6 +36,8 @@ img {
 .c {
     display: flex;
     justify-content: center;
+    padding: 35px;
+    margin: 35px;
    }
 h2 {
     display: flex;
@@ -38,13 +54,67 @@ p {
     justify-content: center;
 }
 span {
-    color: #FC5404;   
+    color: #F54748;   
 }
-.yajirusi {
-    width: 70px;
-    height: 60px;
-}
+
 li {
    display: flex;   
    justify-content: center;
 }
+/** {
+    margin:0; padding:0;
+  }*/
+  header {
+    width: 100%;
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center;
+    /*background-color: #343F56;*/
+  }
+  header .headline{
+    font-size: 32px;
+    font-family: 'HuiFontP109';
+  }
+  .nav-list {
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+  }
+  .nav-list-item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+  }
+ 
+  .c-1 {
+    padding: 35px;
+    margin: 35px;
+ }
+
+ .c-2 {
+    padding: 35px;
+    margin: 35px;
+ }
+
+ .c-3 {
+    padding: 35px;
+    margin: 35px;
+ }
+
+ .c-4 {
+    padding: 35px;
+    margin: 35px;
+ }
+
+ .c-5 {
+    padding: 35px;
+    margin: 35px;
+ }
+ .sentakusi {
+    justify-content: center;
+    border:dotted medium #FB9300;
+    width: 700px;
+    
+
+ }
+     
